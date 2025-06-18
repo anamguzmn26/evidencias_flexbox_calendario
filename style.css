@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 50px;
+    background-color:  rgb(207, 155, 255);
+}
+.calendar-container{
+    display: flex;
+    height: 800px;
+    border: 1px solid #bf70ff;
+    background-color:antiquewhite;
+
+}
+
+.time-bar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #c446ff;
+    padding-top: 40px;
+}
+
+/* selector hijo directo */
+.time-bar > span{
+    border-bottom: dashed 1px #797a7e;
+    flex-grow: 1;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-size: 12px;
+    color: rgb(247, 71, 173);
+}
+
+.week{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.day-column{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #c446ff;
+}
+
+.day-header{
+    color: rgb(247, 71, 173);
+    height: 40px;
+    background-color: #deb5ff;
+    border-bottom: 1px solid #c446ff;
+    font-weight: bold;
+    text-align: center;
+}
+.day-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.actividad1{
+    position: absolute;
+    background-color:rgb(112, 202, 253);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 365px;
+    top: 5px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad2{
+    position: absolute;
+    background-color:rgb(112, 202, 253);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 365px;
+    top: 5px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad3{
+    position: absolute;
+    background-color: rgb(112, 202, 253);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 365px;
+    top: 5px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad4{
+    position: absolute;
+    background-color: rgba(203, 102, 250, 0.856);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 169px;
+    top: 380px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad5{
+    position: absolute;
+    background-color: rgba(250, 102, 218, 0.856);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 200px;
+    top: 550px;
+    left: 3px;
+    right: 3px;
+}
+.actividad6{
+    position: absolute;
+    background-color: rgb(112, 202, 253);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 365px;
+    top: 5px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad7{
+    position: absolute;
+    background-color: rgb(112, 202, 253);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 350px;
+    top: 5px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad8{
+    position: absolute;
+    background-color: rgba(203, 102, 250, 0.856);
+    color: whitesmoke;
+    border-radius: 6px;
+    height:200px;
+    top: 358px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad9{
+    position: absolute;
+    background-color: rgb(102, 112, 250);
+    color: whitesmoke;
+    border-radius: 6px;
+    height:200px;
+    top: 358px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad10{
+    position: absolute;
+    background-color: rgb(245, 34, 122);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 750px;
+    top: 5px;
+    left: 3px;
+    right: 3px;
+}
+.actividad11{
+    position: absolute;
+    background-color: rgb(112, 121, 253);
+    color: whitesmoke;
+    border-radius: 6px;
+    height: 90px;
+    top: 375px;
+    left: 3px;
+    right: 3px;
+}
+
+.actividad12{
+    position: absolute;
+    background-color: rgb(40, 253, 189);
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    height: 280px;
+    top: 470px;
+    left: 3px;
+    right: 3px;
+}
