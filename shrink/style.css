@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 300px;
+  height: 400px;
+  outline: 1px black solid;
+    
+}
+
+.item{
+    outline: 1px black solid;
+    width: 100px;
+    flex-basis: 100px;
+    height: 100px;
+}
+
+.item:nth-child(1) {
+    background-color: lightblue;
+    /* flex-shrink: defecto a 1 */
+    flex-shrink: 2;
+    /* flex:shorthand */
+    /* flex:grow */
+    /* flex:shrink */
+    /* flex:basis */
+    /* flex: 1 1 100px; */
+
+}
+
+.item:nth-child(2) {
+    background-color: rgb(158, 144, 238);
+    flex-shrink: 0.5;
+}
+
+.item:nth-child(3) {
+    background-color: lightpink;
+    flex-shrink: 3;
+}
+
+.item:nth-child(4) {
+    background-color: rgb(126, 214, 248);
+     flex-shrink: 1;
+}
